@@ -1,0 +1,48 @@
+{
+  "com.xuehai.test.pageobject.LoginPage":{
+    "name": "平台登录页",
+    "locators": [
+      {
+        "locatorName": "用户名",
+        "fieldName": "userName",
+        "type": "id",
+        "value": "com.xuehai.response_launcher_teacher:id/login_username_edt"
+      },
+      {
+        "locatorName": "密码",
+        "fieldName": "password",
+        "type": "id",
+        "value": "com.xuehai.response_launcher_teacher:id/login_password_edt"
+      },
+      {
+        "locatorName": "提交按钮",
+        "fieldName": "submit",
+        "type": "id",
+        "value": "com.xuehai.response_launcher_teacher:id/login_btn"
+      },
+      {
+        "locatorName": "错误信息确认框",
+        "fieldName": "errorBox",
+        "type": "xpath",
+        "value": "//*[@text='确定']"
+      }
+    ]
+  },
+  "className":{
+    "name": "平台首页",
+    "locator":[
+      {
+        "locatorName": "应用列表",
+        "fieldName": "appList",
+        "type": "xpath",
+        "value": "//android.widget.TextView[@resource-id='com.xuehai.response_launcher_teacher:id/item_app_name_tv']"
+      },
+      {
+        "locatorName": "悦读icon",
+        "fieldName": "read",
+        "type": "xpath",
+        "value": "//android.widget.TextView[@text='悦读']/../android.widget.FrameLayout"
+      }
+    ]
+  }
+}

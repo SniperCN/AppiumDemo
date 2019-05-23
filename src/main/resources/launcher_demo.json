@@ -1,0 +1,49 @@
+{
+  "teacher": {
+    "ip": "127.0.0.1",
+    "port": 4723,
+    "bootstrapPort": 4724,
+    "deviceId": "09d2b081",
+    "logName": "appium_demo1",
+    "desiredCapabilities": {
+      "systemPort": 8201,
+      "automationName":"UiAutomator2",
+      "platformName":"Android",
+      "deviceName":"09d2b081",
+      "platformVersion":"6.0.1",
+      "appPackage":"com.xuehai.response_launcher_teacher",
+      "appActivity":"com.xuehai.launcher.library.welcome.ui.impl.WelcomeActivity",
+      "appWaitActivity":"com.xuehai.launcher.user.login.LoginActivity",
+      "dontStopAppOnReset":true,
+      "unicodeKeyboard":true,
+      "resetKeyboard":true,
+      "noSign":true,
+      "noReset":true,
+      "autoGrantPermissions": true
+    }
+  },
+  "student": {
+    "ip": "127.0.0.1",
+    "port": 4725,
+    "bootstrapPort": 4726,
+    "deviceId": "0837b8a6",
+    "logName": "appium_demo2",
+    "desiredCapabilities": {
+      "systemPort": 8202,
+      "automationName":"UiAutomator2",
+      "platformName":"Android",
+      "deviceName":"0837b8a6",
+      "platformVersion":"6.0.1",
+      "appPackage":"com.xuehai.response_launcher_teacher",
+      "appActivity":"com.xuehai.launcher.library.welcome.ui.impl.WelcomeActivity",
+      "appWaitActivity":"com.xuehai.launcher.user.login.LoginActivity",
+      "dontStopAppOnReset":true,
+      "unicodeKeyboard":true,
+      "resetKeyboard":true,
+      "noSign":true,
+      "noReset":true,
+      "autoGrantPermissions": true
+    }
+  }
+}
+

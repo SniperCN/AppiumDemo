@@ -1,0 +1,31 @@
+{
+  "com.xuehai.test.testcase.Login":{
+    "name":"用户登录平台",
+    "dataList":[
+      {
+        "login":{
+          "description":"用户名错误",
+          "userName":"ykk2",
+          "password":"123456",
+          "loginAssertion":{
+            "action":"presenceOfElementLocated",
+            "locator":{"type":"xpath","value":"//*[contains(@text, '登录失败')]"},
+            "params":null
+          }
+        }
+      },
+      {
+        "login":{
+          "description":"密码错误",
+          "userName":"ykt2",
+          "password":"1234567",
+          "loginAssertion":{
+            "action":"presenceOfElementLocated",
+            "locator":{"type":"xpath","value":"//*[contains(@text, '登录失败')]"},
+            "params":null
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AppiumDemo" allow-return-values="true">
+    <listeners>
+        <!--
+        -->
+        <listener class-name="com.xuehai.test.base.RetryListener"/>
+        <listener class-name="com.xuehai.test.base.ExtentreportsListener"/>
+    </listeners>
+    <test name="UIDemo" preserve-order="true">
+        <classes>
+            <class name="com.xuehai.test.testcase.Login" />
+        </classes>
+    </test>
+</suite>
